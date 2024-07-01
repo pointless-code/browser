@@ -8,7 +8,7 @@ A browser in your terminal, because using Chrome or Firefox is too mainstream!
 
 ```bash
 docker pull pointlesscode/browser:latest
-docker run --rm pointlesscode/browser
+docker run --rm -it pointlesscode/browser
 ```
 
 ## Build it yourself
@@ -16,7 +16,7 @@ docker run --rm pointlesscode/browser
 - build and run the image
 ```bash
 docker build -t browser .
-docker run -it browser
+docker run --rm -it browser
 ```
 
 ## Social
